@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(78, 75, 75);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.logo{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+span {
+    color: rgb(145, 18, 18);
+    
+}
+
+ul li {
+    display: inline-block;
+    color: bisque;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.btn {
+    background-color: rgb(203, 214, 0);
+    color: rgb(38, 38, 38);
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 50ms;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    transition: 45ms;
+    background-color: bisque;
+    color: rgb(145, 31, 31);
+}
+
+hr {
+    border: 4px solid yellow;
+    margin-top: 20px;
+}
+
+.content {
+    position: absolute;
+    top: 105px;
+    margin-left: 8%;
+    transform: translateY((-50%));
+}
+
+h1 {
+    color: wheat;
+    margin: 20px 0px;
+    font-size: 60px;
+
+}
+
+h3 {
+    color: rgb(0, 117, 115);
+    font-size: 25px;
+}
+
+/* Покраска имени заголовок */
+.p {
+    color: aqua;
+}
+
+/* Покраска имени заголовок */
+.y{
+    color: yellow;
+}
+
+/* Надпись белым */
+.k {
+    color: white;
+}
+
+h4 {
+    color: wheat;
+    font-size: 30px;
+}
+
+/* Промежуточный тут что то не хватает  дописать*/
+
+
+.newsletter {
+    width: 190px;
+    margin-top: -250px;
+
+}
+
+
+/* Кнопка подтвердить */
+.b{
+    width: 185px;
+    border: 2px solid rgb(0, 158, 169);
+    border-radius: 10px;
+    padding: 3%;
+    margin-top: 5px;
+
+}
+
+/* Место для ввкода почты */
+.c {
+    background-color: antiquewhite;
+    padding: 3%;
+    border: 2px solid rgb(0, 158, 169);
+    border-radius: 10px;
+}
+
+
+.newsletter:hover {
+    transform: scale(1.2);
+    transition: 65ms;
+}
+
+/* Фото команды */
+
+/* .newsletter img {
+    height: auto;
+    width: 450px;
+    border: 3px solid rebeccapurple;
+    border-radius: 15px 15px 15px 15px;
+    
+} */
+
+.tim {
+    height: auto;
+    width: 750px;
+    border: 3px solid rgb(208, 201, 0);
+    border-radius: 8px 8px 8px 8px; 
+    margin-left: 450px;
+    margin-top: -20.8%;
+}
+
+
+.about {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 69, 95);
+    margin-top: 15px;
+}
+
+.about img {
+    height: auto;
+    width: 450px;
+    border: 3px solid rebeccapurple;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.about img:hover {
+    transform: scale(1.3);
+    transition: 55ms;
+}
+
+.main {
+    width: 1130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.about-text h2 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+/* Третья страница */
+
+.our_services {
+
+    width: 1200px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+
+
+
+.divone {
+    width: 600px;
+    height: 250px;
+    border: 3px solid blue;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5% 5% 5% 5%;
+    background-image: url(./chat.png);
+    
+}
+
+.one {
+    background-color: rgb(135, 0, 214);
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 50ms;
+
+}
+
+.one:hover {
+    transform: scale(1.2);
+    transition: 45ms;
+    background-color: rgb(0, 166, 160);
+    color: rgb(42, 42, 42);
+}
+
+.divtow {
+    width: 600px;
+    height: 250px;
+    border: 3px solid blue;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5% 5% 5% 5%;
+    background-image: url(./facebook.png);
+}
+
+.tow {
+    background-color: rgb(135, 0, 214);
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 50ms;
+}
+
+.tow:hover {
+    transform: scale(1.2);
+    transition: 45ms;
+    background-color: rgb(0, 166, 160);
+    color: rgb(42, 42, 42);
+}
+
+.divtru {
+    width: 600px;
+    height: 250px;
+    border: 3px solid blue;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5% 5% 5% 5%;
+    background-image: url(./twitter.png);
+}
+
+.tru {
+    background-color: rgb(135, 0, 214);
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 50ms;
+
+}
+
+.tru:hover {
+    transform: scale(1.2);
+    transition: 45ms;
+    background-color: rgb(0, 166, 160);
+    color: rgb(42, 42, 42);
+}
